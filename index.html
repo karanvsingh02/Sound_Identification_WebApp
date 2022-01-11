@@ -1,0 +1,68 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <center>
+          <div class = "col-xs-12 header_div text_center" style="background-color:rgb(51, 109, 163);">
+            <br>
+            <br>
+            <h2 style="color: white;">Sound Controlled Animals</h2>
+            <p style="color: white;">Note: Play different sounds like barking, meowing, roaring, or mooing.</p>
+          </div>
+          <br>
+          <br>
+
+          <div class="main_div" style="background-color: rgb(126, 190, 199); height:625px;">
+            <center>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <button class="btn btn-warning" onclick="startClassification();">START</button>
+              <br>
+              <h4 id="result_confidence"></h4>
+              <br>
+              <br>
+              <h3 id="result_label">I can hear - </h3>
+              <br>
+              <br>
+              <img src="Listen.jpg" id="Animal_img">
+              <br>
+            </center>
+          </div>
+          
+          <div class="copy_right_footer" style="background-color:rgb(51, 109, 163);">
+            <br>
+            <br>
+            <p style="color: white;">Developed By - WhitehatJR Team</p>
+            <br>
+            <br>
+          </div>
+        </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
